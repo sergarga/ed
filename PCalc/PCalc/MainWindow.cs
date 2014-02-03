@@ -11,23 +11,39 @@ public partial class MainWindow: Gtk.Window
 		
 		//SUMA
 		buttonSumar.Clicked+=delegate{
+		try{
 		double a=double.Parse (entry1.Text);
 		double b=double.Parse (entry2.Text);
 		entryResult.Text=Convert.ToString (a+b);	
+		}catch(System.FormatException){
+				entry1.Text="Introduce operando";
+				entry2.Text="Introduce operando";
+			}
 		};
+		
 		
 		//MULTIPLICACION
 		buttonMultiplicacion.Clicked+=delegate{
+		try{
 		double a=double.Parse (entry1.Text);
 		double b=double.Parse (entry2.Text);
-		entryResult.Text=Convert.ToString (a*b);	
+		entryResult.Text=Convert.ToString (a*b);
+		}catch(System.FormatException){
+				entry1.Text="Introduce operando";
+				entry2.Text="Introduce operando";
+			}
 		};
 		
 		//DIVISION
 		buttonDivision.Clicked+=delegate{
+		try{
 		double a=double.Parse (entry1.Text);
 		double b=double.Parse (entry2.Text);
-		entryResult.Text=Convert.ToString (a/b);	
+		entryResult.Text=Convert.ToString (a/b);
+		}catch(System.FormatException){
+				entry1.Text="Introduce operando";
+				entry2.Text="Introduce operando";
+			}
 		};
 	}
 	

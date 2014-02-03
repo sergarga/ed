@@ -69,7 +69,6 @@ public partial class MainWindow
 		this.hbox1.Add (this.buttonDivision);
 		global::Gtk.Box.BoxChild w4 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.buttonDivision]));
 		w4.Position = 0;
-		w4.Expand = false;
 		w4.Fill = false;
 		// Container child hbox1.Gtk.Box+BoxChild
 		this.buttonMultiplicacion = new global::Gtk.Button ();
@@ -80,7 +79,6 @@ public partial class MainWindow
 		this.hbox1.Add (this.buttonMultiplicacion);
 		global::Gtk.Box.BoxChild w5 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.buttonMultiplicacion]));
 		w5.Position = 1;
-		w5.Expand = false;
 		w5.Fill = false;
 		// Container child hbox1.Gtk.Box+BoxChild
 		this.buttonSumar = new global::Gtk.Button ();
@@ -92,7 +90,6 @@ public partial class MainWindow
 		global::Gtk.Box.BoxChild w6 = ((global::Gtk.Box.BoxChild)(this.hbox1 [this.buttonSumar]));
 		w6.PackType = ((global::Gtk.PackType)(1));
 		w6.Position = 2;
-		w6.Expand = false;
 		w6.Fill = false;
 		this.vbox1.Add (this.hbox1);
 		global::Gtk.Box.BoxChild w7 = ((global::Gtk.Box.BoxChild)(this.vbox1 [this.hbox1]));
