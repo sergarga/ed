@@ -19,7 +19,8 @@ public partial class MainWindow: Gtk.Window
 		//arrayButton.Get (1,3).Label = "*";
 		//arrayButton[2,4].Label = "**";
 		
-		//arrayButton.SetLabels (new string[] {"uno", "dos", "tres","cuatro","cinco","seis"});
+		arrayButton.SetLabels (new string[] {"uno", "dos", "tres"});
+		arrayButton.SetLabels (new string[] {"uno", "dos", "tres","cuatro","cinco","seis"});
 	}
 	
 	protected void OnDeleteEvent (object sender, DeleteEventArgs a)
